@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/codebug"/>
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="User Name"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="7dp"
+            android:paddingStart="7dp"
+            android:paddingEnd="7dp"
+            android:background="@drawable/edit_text_style_design"/>
+        <EditText
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Password"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:background="@drawable/edit_text_style_design"/>
+        <Button
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_style_selector"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Login"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"/>
+        <TextView
+
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Forgotten your login details?"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
